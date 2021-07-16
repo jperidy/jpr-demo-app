@@ -1,0 +1,22 @@
+{
+  "name": "jpr-cv-app",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview"
+  },
+  "devDependencies": {
+    "@sveltejs/kit": "next",
+    "svelte": "^3.34.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "dateformat": "^4.5.1",
+    "firebase": "^8.6.8",
+    "rxfire": "^4.0.0",
+    "rxjs": "^6.6.7",
+    "sveltestrap": "^5.2.1"
+  }
+}
