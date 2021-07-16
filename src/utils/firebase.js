@@ -1,15 +1,16 @@
 import firebase from "firebase/app";
 import 'firebase/auth';
 import 'firebase/firestore';
+import variables from "../../.env.js"
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: "AIzaSyC6oYHmFpV1NyDh1V86tQ8z2UoN0KCdgYk",
-    authDomain: "svelte-app-60dde.firebaseapp.com",
-    projectId: "svelte-app-60dde",
-    storageBucket: "svelte-app-60dde.appspot.com",
-    messagingSenderId: "789768154360",
-    appId: "1:789768154360:web:9b57f6dfe1b3f9860e5f0d"
+    apiKey: variables.API_FIREBASE_KEY,
+    authDomain: variables.API_FIREBASE_AUTH_DOMAINE,
+    projectId: variables.API_FIREBASE_PROJECTID,
+    storageBucket: variables.API_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: variables.API_FIREBASE_MESSENGING_SENDER_ID,
+    appId: variables.API_FIREBASE_APPID,
 };
 // Initialize Firebase
 if (!firebase.apps.length) {
